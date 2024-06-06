@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1000px;
+    margin: auto;
+}
+a{
+    display: inline-block;
+}
+img{
+    vertical-align: middle;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.clr{
+    clear: both;
+}
+/* common css end */
+#main_menu{
+    background-color: gray;
+    height: 100px;
+}
+#main_menu .logo{
+    width: 22%;
+    /* background-color: darkcyan; */
+    /* height: 100px; */
+    float: left;
+}
+#main_menu .logo a{
+    line-height: 100px;
+}
+#main_menu .menu{
+    width: 78%;
+    /* background-color: indianred; */
+    /* height: 100px; */
+    float: left;
+}
+#main_menu .menu li{
+    /* background-color: aqua; */
+    display: inline-block;
+    line-height: 100px;
+}
+#main_menu .menu ul{
+    text-align: right;
+}
+#main_menu .menu li a{
+    font-size: 16px;
+    font-weight: 700;
+    color: black;
+    font-family: sans-serif;
+    margin-left: 20px;
+    transition: .4s;
+}
+#main_menu .menu li a:hover{
+    color: white;
+    letter-spacing: 2px;
+}
+
+/* banenr section start */
+/* .container{
+    width: 1000px;
+    margin: auto;
+    background-color: darkolivegreen;
+} */
+#banenr{
+    background-color: gray;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#banenr .left{
+    width: 48%;
+    float: left;
+}
+#banenr .right {
+    width: 48%;
+    float: left;
+    margin-left: 40px;
+}
+#id .right img{
+    width: 100%;
+}
+#banenr .left h1{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: crimson;
+}
+#banenr .left h2{
+    font-size: 40px;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: rgb(155, 9, 9);
+}
+#banenr .left p{
+    font-size: 16px;
+    font-family: sans-serif;
+    margin-bottom: 16px;
+    line-height: 24px;
+}
+#banenr .left a{
+    color: white;
+    background-color: goldenrod;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 25px;
+    margin-top: 30px;
+    transition: .4s;
+    display: inline-block; 
+}
+#banenr .left a:hover{
+    background-color: red;
+    color: black;
+}
